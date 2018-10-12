@@ -1,0 +1,25 @@
+{
+  "name": "guestlist2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^23.6.0",
+    "mysql2": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honzapospi/guestlist2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honzapospi/guestlist2/issues"
+  },
+  "homepage": "https://github.com/honzapospi/guestlist2#readme"
+}
