@@ -9,10 +9,10 @@ const config = {
 
 const createConnection = mysql.createConnection(config);
 
-module.exports = (sql) => {
+module.exports = (sql, params) => {
     return new Promise((resolve, reject) => {
         createConnection.then(connection => {
-            connection.execute(sql).then(resolve).catch(reject);
+            connection.execute(sql, params).then(resolve).catch(reject);
         }).catch(reject);
     });
 }
